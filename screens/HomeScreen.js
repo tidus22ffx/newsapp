@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
   return (
     <SafeAreaView>
       <Text>Hello</Text>
