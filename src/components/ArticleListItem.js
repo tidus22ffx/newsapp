@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import {format} from 'date-fns';
 import {
   Dimensions,
@@ -12,11 +11,11 @@ import {
 import {RFValue} from 'react-native-responsive-fontsize';
 import {Colors} from '../themes/colors';
 
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 const styles = StyleSheet.create({
   container: {
     paddingTop: 29,
-    paddingBottom: 13,
+    marginBottom: 13,
     paddingLeft: 11,
     flexDirection: 'row',
     alignItems: 'center',
@@ -31,21 +30,21 @@ const styles = StyleSheet.create({
   },
   publisherText: {
     fontFamily: 'MuktaMaheeBold',
-    fontSize: RFValue(11, 812),
+    fontSize: RFValue(11, 768),
     color: Colors.LIST_ARTICLE_PUBLISHER_TEXT,
     textAlign: 'left',
     lineHeight: 18.28,
   },
   titleText: {
     fontFamily: 'MuktaMaheeRegular',
-    fontSize: RFValue(13, 812),
+    fontSize: RFValue(13, 768),
     color: Colors.LIST_ARTICLE_TITLE_TEXT,
     textAlign: 'left',
     lineHeight: 21.61,
   },
   publishTimeText: {
     fontFamily: 'MuktaMaheeRegular',
-    fontSize: RFValue(9, 812),
+    fontSize: RFValue(9, 768),
     color: Colors.LIST_ARTICLE_POSTDATE_TEXT,
     textAlign: 'left',
     lineHeight: 14.96,

@@ -1,20 +1,12 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {
-  Dimensions,
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import React from 'react';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {Colors} from '../themes/colors';
 
-const {width, height} = Dimensions.get('window');
+// const {width, height} = Dimensions.get('window');
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 29,
+    paddingTop: 25,
     paddingBottom: 18,
     alignItems: 'flex-start',
     justifyContent: 'center',
@@ -29,21 +21,21 @@ const styles = StyleSheet.create({
   publisherText: {
     marginTop: 7,
     fontFamily: 'MuktaMaheeBold',
-    fontSize: RFValue(11, 812),
+    fontSize: RFValue(11, 768),
     color: Colors.HEADLINE_PUBLISHER_TEXT,
     textAlign: 'left',
     lineHeight: 18.28,
   },
   titleText: {
     fontFamily: 'MuktaMaheeRegular',
-    fontSize: RFValue(14, 812),
+    fontSize: RFValue(14, 768),
     color: Colors.HEADLINE_TITLE_TEXT,
     textAlign: 'left',
     lineHeight: 23.27,
   },
   descriptionText: {
     fontFamily: 'MuktaMaheeRegular',
-    fontSize: RFValue(10, 812),
+    fontSize: RFValue(10, 768),
     color: Colors.HEADLINE_DESCRIPTION,
     textAlign: 'left',
     lineHeight: 16.62,
