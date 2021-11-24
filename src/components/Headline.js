@@ -24,21 +24,21 @@ const styles = StyleSheet.create({
     fontSize: RFValue(11, 768),
     color: Colors.HEADLINE_PUBLISHER_TEXT,
     textAlign: 'left',
-    lineHeight: 18.28,
+    lineHeight: RFValue(18.28, 768),
   },
   titleText: {
     fontFamily: 'MuktaMaheeRegular',
     fontSize: RFValue(14, 768),
     color: Colors.HEADLINE_TITLE_TEXT,
     textAlign: 'left',
-    lineHeight: 23.27,
+    lineHeight: RFValue(23.27, 768),
   },
   descriptionText: {
     fontFamily: 'MuktaMaheeRegular',
     fontSize: RFValue(10, 768),
     color: Colors.HEADLINE_DESCRIPTION,
     textAlign: 'left',
-    lineHeight: 16.62,
+    lineHeight: RFValue(16.62, 768),
   },
 });
 

@@ -33,21 +33,21 @@ const styles = StyleSheet.create({
     fontSize: RFValue(11, 768),
     color: Colors.LIST_ARTICLE_PUBLISHER_TEXT,
     textAlign: 'left',
-    lineHeight: 18.28,
+    lineHeight: RFValue(18.28, 768),
   },
   titleText: {
     fontFamily: 'MuktaMaheeRegular',
     fontSize: RFValue(13, 768),
     color: Colors.LIST_ARTICLE_TITLE_TEXT,
     textAlign: 'left',
-    lineHeight: 21.61,
+    lineHeight: RFValue(21.61, 768),
   },
   publishTimeText: {
     fontFamily: 'MuktaMaheeRegular',
     fontSize: RFValue(9, 768),
     color: Colors.LIST_ARTICLE_POSTDATE_TEXT,
     textAlign: 'left',
-    lineHeight: 14.96,
+    lineHeight: RFValue(14.96, 768),
   },
 });
 
