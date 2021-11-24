@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import {format} from 'date-fns';
 import {
   Dimensions,
   Image,
@@ -16,6 +17,7 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: 29,
     paddingBottom: 13,
+    paddingLeft: 11,
     flexDirection: 'row',
     alignItems: 'center',
   },
@@ -25,6 +27,7 @@ const styles = StyleSheet.create({
   },
   articleTextContainer: {
     marginLeft: 19,
+    flexShrink: 1,
   },
   publisherText: {
     fontFamily: 'MuktaMaheeBold',
@@ -50,6 +53,7 @@ const styles = StyleSheet.create({
 });
 
 const ArticleListItem = ({data, onDetail}) => {
+  const publishDate = new Date(data.publishedAt);
   return (
     <View style={styles.container}>
       <Image
@@ -62,7 +66,9 @@ const ArticleListItem = ({data, onDetail}) => {
         <TouchableOpacity onPress={() => onDetail(data)}>
           <Text style={styles.titleText}>{data.title}</Text>
         </TouchableOpacity>
-        <Text style={styles.publishTimeText}>{data.publishedAt}</Text>
+        <Text style={styles.publishTimeText}>
+          {format(publishDate, 'MMMM dd, yyyy')}
+        </Text>
       </View>
     </View>
   );
