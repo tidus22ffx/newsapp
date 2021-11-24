@@ -1,4 +1,4 @@
-const colors = {
+const Colors = {
   SCREEN_BACKGROUND: '#FFFFFF',
   SCREEN_TITLE_TEXT: '#000000',
   SELECTED_COUNTRY_BUTTON: '#889FBB',
@@ -18,4 +18,4 @@ const colors = {
   ARTICLE_URL: '#1A30FF',
 };
 
-export default colors;
+export {Colors};
