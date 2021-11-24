@@ -1,6 +1,11 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {CLIENT_ERROR, create, NETWORK_ERROR, SERVER_ERROR, TIMEOUT_ERROR} from 'apisauce';
+import React from 'react';
+import {
+  CLIENT_ERROR,
+  create,
+  NETWORK_ERROR,
+  SERVER_ERROR,
+  TIMEOUT_ERROR,
+} from 'apisauce';
 
 const NewsApi = create({
   baseURL: 'https://newsapi.org/v2',
