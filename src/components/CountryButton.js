@@ -9,6 +9,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.COUNTRY_BUTTON,
     borderRadius: 4,
     paddingHorizontal: 12,
+    borderColor: Colors.COUNTRY_BUTTON_BORDER,
+    borderWidth: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -21,12 +23,12 @@ const styles = StyleSheet.create({
   },
   label: {
     fontFamily: 'SourceSansProRegular',
-    fontSize: 14,
+    fontSize: RFValue(14),
     color: Colors.COUNTRY_BUTTON_TEXT,
   },
   labelSelected: {
     fontFamily: 'SourceSansProRegular',
-    fontSize: 14,
+    fontSize: RFValue(14),
     color: Colors.SELECTED_COUNTRY_BUTTON_TEXT,
   },
 });
