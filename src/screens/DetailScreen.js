@@ -1,6 +1,13 @@
 import format from 'date-fns/format';
 import React, {useState} from 'react';
-import {Image, Linking, StyleSheet, Text, TouchableOpacity} from 'react-native';
+import {
+  Image,
+  Linking,
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+} from 'react-native';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Colors} from '../themes/colors';
@@ -8,7 +15,7 @@ import {Colors} from '../themes/colors';
 const styles = StyleSheet.create({
   screen: {
     backgroundColor: Colors.SCREEN_BACKGROUND,
-    paddingTop: 16,
+    paddingTop: Platform.OS === 'ios' ? 4 : 16,
     paddingHorizontal: 16,
     flex: 1,
   },
