@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {NewsApi, NewsEndpoints, throwNetworkException} from '../api/NewsApi';
+import { countryList } from '../assets/CountryList';
 import {ArticleListItem} from '../components/ArticleListItem';
 import {CountryButton} from '../components/CountryButton';
 import {FlatlistErrorView} from '../components/FlatlistErrorView';
@@ -65,25 +66,6 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
 });
-
-const countryList = [
-  {
-    label: 'United States',
-    value: 'us',
-  },
-  {
-    label: 'United Kingdom',
-    value: 'uk',
-  },
-  {
-    label: 'Australia',
-    value: 'au',
-  },
-  {
-    label: 'Singapore',
-    value: 'sg',
-  },
-];
 
 const apiKey = '1722765a6674428094451a85c446f830';
 const pageLimit = 10;
