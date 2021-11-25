@@ -17,6 +17,8 @@ const NewsEndpoints = {
   headlines: '/top-headlines',
 };
 
+const apiKey = '1722765a6674428094451a85c446f830';
+
 const throwNetworkException = constant => {
   switch (constant) {
     case CLIENT_ERROR:
@@ -32,4 +34,4 @@ const throwNetworkException = constant => {
   }
 };
 
-export {NewsApi, NewsEndpoints, throwNetworkException};
+export {NewsApi, NewsEndpoints, throwNetworkException, apiKey};

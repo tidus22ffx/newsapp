@@ -8,8 +8,13 @@ import {
   View,
 } from 'react-native';
 import {RFValue} from 'react-native-responsive-fontsize';
-import {NewsApi, NewsEndpoints, throwNetworkException} from '../api/NewsApi';
-import { countryList } from '../assets/CountryList';
+import {
+  apiKey,
+  NewsApi,
+  NewsEndpoints,
+  throwNetworkException,
+} from '../api/NewsApi';
+import {countryList} from '../assets/CountryList';
 import {ArticleListItem} from '../components/ArticleListItem';
 import {CountryButton} from '../components/CountryButton';
 import {FlatlistErrorView} from '../components/FlatlistErrorView';
@@ -67,7 +72,6 @@ const styles = StyleSheet.create({
   },
 });
 
-const apiKey = '1722765a6674428094451a85c446f830';
 const pageLimit = 10;
 
 const HomeScreen = ({navigation}) => {
@@ -90,7 +94,8 @@ const HomeScreen = ({navigation}) => {
     try {
       const response = await NewsApi.get(
         `${
-          NewsEndpoints.headlines}?country=${selectedCountry}&page=${1}&pageSize=${limit}&apiKey=${apiKey}`,
+          NewsEndpoints.headlines
+        }?country=${selectedCountry}&page=${1}&pageSize=${limit}&apiKey=${apiKey}`,
       );
       console.log(response);
       setIsLoading(false);
