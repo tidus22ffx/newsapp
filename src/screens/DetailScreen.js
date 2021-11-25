@@ -4,6 +4,7 @@ import {
   Image,
   Linking,
   Platform,
+  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -15,7 +16,7 @@ import {Colors} from '../themes/colors';
 const styles = StyleSheet.create({
   screen: {
     backgroundColor: Colors.SCREEN_BACKGROUND,
-    paddingTop: Platform.OS === 'ios' ? 4 : 16,
+    paddingTop: Platform.OS === 'ios' ? -8 : 16,
     paddingHorizontal: 16,
     flex: 1,
   },
@@ -84,24 +85,26 @@ const DetailScreen = ({navigation, route}) => {
   const publishDate = new Date(data.publishedAt);
   return (
     <SafeAreaView style={styles.screen}>
-      <Text style={styles.screenTitle}>Details</Text>
-      <Image
-        source={{uri: data.urlToImage}}
-        style={styles.image}
-        resizeMode={'cover'}
-      />
-      <Text style={styles.publisherText}>{data.source.name}</Text>
-      <Text style={styles.titleText}>{data.title}</Text>
-      <Text style={styles.authorText}>
-        {data.author}
-        {data.author ? ' | ' : ' '}
-        {format(publishDate, 'MMMM dd, yyyy')}
-      </Text>
-      <Text style={styles.descriptionText}>{data.description}</Text>
-      <Text style={styles.contentText}>{data.content}</Text>
-      <TouchableOpacity onPress={() => Linking.openURL(data.url)}>
-        <Text style={styles.urlText}>{data.url}</Text>
-      </TouchableOpacity>
+      <ScrollView  scrollEnabled={true} showsVerticalScrollIndicator={false}>
+        <Text style={styles.screenTitle}>Details</Text>
+        <Image
+          source={{uri: data.urlToImage}}
+          style={styles.image}
+          resizeMode={'cover'}
+        />
+        <Text style={styles.publisherText}>{data.source.name}</Text>
+        <Text style={styles.titleText}>{data.title}</Text>
+        <Text style={styles.authorText}>
+          {data.author}
+          {data.author ? ' | ' : ' '}
+          {format(publishDate, 'MMMM dd, yyyy')}
+        </Text>
+        <Text style={styles.descriptionText}>{data.description}</Text>
+        <Text style={styles.contentText}>{data.content}</Text>
+        <TouchableOpacity onPress={() => Linking.openURL(data.url)}>
+          <Text style={styles.urlText}>{data.url}</Text>
+        </TouchableOpacity>
+      </ScrollView>
     </SafeAreaView>
   );
 };
