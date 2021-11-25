@@ -199,7 +199,7 @@ const HomeScreen = ({navigation}) => {
   };
 
   const navigateToDetail = data => {
-    navigation.navigate('Detail', {data: data});
+    navigation.navigate('Details', {data: data});
   };
 
   return (

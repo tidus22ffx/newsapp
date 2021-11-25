@@ -15,7 +15,7 @@ const RootStackNavigation = () => {
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="Detail"
+        name="Details"
         component={DetailScreen}
         options={{headerShown: Platform.OS === 'ios'}}
       />
