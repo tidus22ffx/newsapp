@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   screenTitle: {
-    fontFamily: 'SourceSansProSemiBold',
+    fontFamily: 'SourceSansPro-SemiBold',
     fontSize: RFValue(24, 768),
     lineHeight: RFValue(36, 768),
     color: Colors.SCREEN_TITLE_TEXT,
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   noArticleMessageText: {
-    fontFamily: 'MuktaMaheeRegular',
+    fontFamily: 'MuktaMahee-Regular',
     fontSize: RFValue(14, 768),
     lineHeight: RFValue(18.28, 768),
     textAlign: 'center',

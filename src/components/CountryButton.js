@@ -22,12 +22,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   label: {
-    fontFamily: 'SourceSansProRegular',
+    fontFamily: 'SourceSansPro-Regular',
     fontSize: RFValue(14),
     color: Colors.COUNTRY_BUTTON_TEXT,
   },
   labelSelected: {
-    fontFamily: 'SourceSansProRegular',
+    fontFamily: 'SourceSansPro-Regular',
     fontSize: RFValue(14),
     color: Colors.SELECTED_COUNTRY_BUTTON_TEXT,
   },

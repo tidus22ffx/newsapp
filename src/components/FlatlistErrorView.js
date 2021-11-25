@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   messageText: {
-    fontFamily: 'MuktaMaheeRegular',
+    fontFamily: 'MuktaMahee-Regular',
     fontSize: RFValue(14, 768),
     lineHeight: RFValue(18.28, 768),
     textAlign: 'center',

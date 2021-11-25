@@ -16,6 +16,10 @@
 		4348FBD265F1473FA8A43ED6 /* MuktaMaheeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF297BFE3FC44397A3006719 /* MuktaMaheeRegular.ttf */; };
 		C071F25BC5E44C72B9278DCB /* SourceSansProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D5EAF56B6DC4A21A0327AEA /* SourceSansProRegular.ttf */; };
 		82C58424D7A84211B66851CA /* SourceSansProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 122142809FFF45A49B85434A /* SourceSansProSemiBold.ttf */; };
+		83BF0F0B5C3E4A79ABA7EC97 /* MuktaMahee-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */; };
+		AE553808E8A148CE88224A0E /* MuktaMahee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */; };
+		EC733F196233487DAC6B5AE3 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */; };
+		2B9BDDC24D814080B50CACDF /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EF297BFE3FC44397A3006719 /* MuktaMaheeRegular.ttf */ = {isa = PBXFileReference; name = "MuktaMaheeRegular.ttf"; path = "../src/assets/fonts/MuktaMaheeRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0D5EAF56B6DC4A21A0327AEA /* SourceSansProRegular.ttf */ = {isa = PBXFileReference; name = "SourceSansProRegular.ttf"; path = "../src/assets/fonts/SourceSansProRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		122142809FFF45A49B85434A /* SourceSansProSemiBold.ttf */ = {isa = PBXFileReference; name = "SourceSansProSemiBold.ttf"; path = "../src/assets/fonts/SourceSansProSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */ = {isa = PBXFileReference; name = "MuktaMahee-Bold.ttf"; path = "../src/assets/fonts/MuktaMahee-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */ = {isa = PBXFileReference; name = "MuktaMahee-Regular.ttf"; path = "../src/assets/fonts/MuktaMahee-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-Regular.ttf"; path = "../src/assets/fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-SemiBold.ttf"; path = "../src/assets/fonts/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,10 @@
 				EF297BFE3FC44397A3006719 /* MuktaMaheeRegular.ttf */,
 				0D5EAF56B6DC4A21A0327AEA /* SourceSansProRegular.ttf */,
 				122142809FFF45A49B85434A /* SourceSansProSemiBold.ttf */,
+				E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */,
+				48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */,
+				1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */,
+				6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -239,6 +251,10 @@
 				4348FBD265F1473FA8A43ED6 /* MuktaMaheeRegular.ttf in Resources */,
 				C071F25BC5E44C72B9278DCB /* SourceSansProRegular.ttf in Resources */,
 				82C58424D7A84211B66851CA /* SourceSansProSemiBold.ttf in Resources */,
+				83BF0F0B5C3E4A79ABA7EC97 /* MuktaMahee-Bold.ttf in Resources */,
+				AE553808E8A148CE88224A0E /* MuktaMahee-Regular.ttf in Resources */,
+				EC733F196233487DAC6B5AE3 /* SourceSansPro-Regular.ttf in Resources */,
+				2B9BDDC24D814080B50CACDF /* SourceSansPro-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

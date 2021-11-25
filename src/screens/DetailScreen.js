@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   screenTitle: {
-    fontFamily: 'SourceSansProSemiBold',
+    fontFamily: 'SourceSansPro-SemiBold',
     fontSize: RFValue(24, 768),
     lineHeight: RFValue(36, 768),
     color: Colors.SCREEN_TITLE_TEXT,
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
   publisherText: {
     marginTop: 10,
-    fontFamily: 'MuktaMaheeBold',
+    fontFamily: 'MuktaMahee-Bold',
     fontSize: RFValue(12, 768),
     color: Colors.ARTICLE_PUBLISHER_TEXT,
     textAlign: 'left',
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   },
   titleText: {
     marginTop: 9,
-    fontFamily: 'MuktaMaheeBold',
+    fontFamily: 'MuktaMahee-Bold',
     fontSize: RFValue(18, 768),
     color: Colors.ARTICLE_TITLE_TEXT,
     textAlign: 'left',
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   authorText: {
     marginTop: 14,
-    fontFamily: 'MuktaMaheeRegular',
+    fontFamily: 'MuktaMahee-Regular',
     fontSize: RFValue(10, 768),
     color: Colors.ARTICLE_AUTHOR_TEXT,
     textAlign: 'left',
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   descriptionText: {
     marginTop: 28,
-    fontFamily: 'MuktaMaheeRegular',
+    fontFamily: 'MuktaMahee-Regular',
     fontSize: RFValue(14, 768),
     color: Colors.ARTICLE_BODY_TEXT,
     textAlign: 'left',
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
   contentText: {
     marginTop: 16,
-    fontFamily: 'MuktaMaheeRegular',
+    fontFamily: 'MuktaMahee-Regular',
     fontSize: RFValue(14, 768),
     color: Colors.ARTICLE_BODY_TEXT,
     textAlign: 'left',
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   urlText: {
     marginTop: 24,
-    fontFamily: 'MuktaMaheeRegular',
+    fontFamily: 'MuktaMahee-Regular',
     fontSize: RFValue(14, 768),
     color: Colors.ARTICLE_URL,
     textAlign: 'left',

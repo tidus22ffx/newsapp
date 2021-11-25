@@ -57,6 +57,10 @@
 		<string>MuktaMaheeRegular.ttf</string>
 		<string>SourceSansProRegular.ttf</string>
 		<string>SourceSansProSemiBold.ttf</string>
+		<string>MuktaMahee-Bold.ttf</string>
+		<string>MuktaMahee-Regular.ttf</string>
+		<string>SourceSansPro-Regular.ttf</string>
+		<string>SourceSansPro-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>
