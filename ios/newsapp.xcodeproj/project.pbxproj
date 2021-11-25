@@ -11,15 +11,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		189A21F6A502F3BB92339A86 /* libPods-newsapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFF77680B30BC74A363E549 /* libPods-newsapp.a */; };
+		2B9BDDC24D814080B50CACDF /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */; };
+		44B1C2678C6A34C9B9732E4C /* libPods-newsapp-newsappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5508627CDC5251F2EB0EBBBF /* libPods-newsapp-newsappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		603FC9D92B7542A9AEEB439A /* MuktaMaheeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 641149CDD10A4DC89646BDD3 /* MuktaMaheeBold.ttf */; };
-		4348FBD265F1473FA8A43ED6 /* MuktaMaheeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF297BFE3FC44397A3006719 /* MuktaMaheeRegular.ttf */; };
-		C071F25BC5E44C72B9278DCB /* SourceSansProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D5EAF56B6DC4A21A0327AEA /* SourceSansProRegular.ttf */; };
-		82C58424D7A84211B66851CA /* SourceSansProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 122142809FFF45A49B85434A /* SourceSansProSemiBold.ttf */; };
 		83BF0F0B5C3E4A79ABA7EC97 /* MuktaMahee-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */; };
 		AE553808E8A148CE88224A0E /* MuktaMahee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */; };
 		EC733F196233487DAC6B5AE3 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */; };
-		2B9BDDC24D814080B50CACDF /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +40,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = newsapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = newsapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = newsapp/main.m; sourceTree = "<group>"; };
+		1C16FC791A7FB2BA99F8EA32 /* Pods-newsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newsapp.debug.xcconfig"; path = "Target Support Files/Pods-newsapp/Pods-newsapp.debug.xcconfig"; sourceTree = "<group>"; };
+		1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Regular.ttf"; path = "../src/assets/fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MuktaMahee-Regular.ttf"; path = "../src/assets/fonts/MuktaMahee-Regular.ttf"; sourceTree = "<group>"; };
+		5508627CDC5251F2EB0EBBBF /* libPods-newsapp-newsappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newsapp-newsappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-SemiBold.ttf"; path = "../src/assets/fonts/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = newsapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B614AC14C66608C6C00B8A4C /* Pods-newsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newsapp.release.xcconfig"; path = "Target Support Files/Pods-newsapp/Pods-newsapp.release.xcconfig"; sourceTree = "<group>"; };
+		BDFF77680B30BC74A363E549 /* libPods-newsapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newsapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E0E16742726323CEE2C470 /* Pods-newsapp-newsappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newsapp-newsappTests.debug.xcconfig"; path = "Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MuktaMahee-Bold.ttf"; path = "../src/assets/fonts/MuktaMahee-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		641149CDD10A4DC89646BDD3 /* MuktaMaheeBold.ttf */ = {isa = PBXFileReference; name = "MuktaMaheeBold.ttf"; path = "../src/assets/fonts/MuktaMaheeBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EF297BFE3FC44397A3006719 /* MuktaMaheeRegular.ttf */ = {isa = PBXFileReference; name = "MuktaMaheeRegular.ttf"; path = "../src/assets/fonts/MuktaMaheeRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0D5EAF56B6DC4A21A0327AEA /* SourceSansProRegular.ttf */ = {isa = PBXFileReference; name = "SourceSansProRegular.ttf"; path = "../src/assets/fonts/SourceSansProRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		122142809FFF45A49B85434A /* SourceSansProSemiBold.ttf */ = {isa = PBXFileReference; name = "SourceSansProSemiBold.ttf"; path = "../src/assets/fonts/SourceSansProSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */ = {isa = PBXFileReference; name = "MuktaMahee-Bold.ttf"; path = "../src/assets/fonts/MuktaMahee-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */ = {isa = PBXFileReference; name = "MuktaMahee-Regular.ttf"; path = "../src/assets/fonts/MuktaMahee-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-Regular.ttf"; path = "../src/assets/fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-SemiBold.ttf"; path = "../src/assets/fonts/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC92C7558F3DC6490F368641 /* Pods-newsapp-newsappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newsapp-newsappTests.release.xcconfig"; path = "Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B1C2678C6A34C9B9732E4C /* libPods-newsapp-newsappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189A21F6A502F3BB92339A86 /* libPods-newsapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +91,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C3B2A5F1A4649CAB0FDFB53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */,
+				48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */,
+				1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */,
+				6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* newsapp */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				BDFF77680B30BC74A363E549 /* libPods-newsapp.a */,
+				5508627CDC5251F2EB0EBBBF /* libPods-newsapp-newsappTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0C3B2A5F1A4649CAB0FDFB53 /* Resources */,
+				AD8C66FF92353EB1909CC4A9 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -141,21 +157,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C3B2A5F1A4649CAB0FDFB53 /* Resources */ = {
-			isa = "PBXGroup";
+		AD8C66FF92353EB1909CC4A9 /* Pods */ = {
+			isa = PBXGroup;
 			children = (
-				641149CDD10A4DC89646BDD3 /* MuktaMaheeBold.ttf */,
-				EF297BFE3FC44397A3006719 /* MuktaMaheeRegular.ttf */,
-				0D5EAF56B6DC4A21A0327AEA /* SourceSansProRegular.ttf */,
-				122142809FFF45A49B85434A /* SourceSansProSemiBold.ttf */,
-				E8104607E28A43ED92DC572B /* MuktaMahee-Bold.ttf */,
-				48650455F6644646820F8A93 /* MuktaMahee-Regular.ttf */,
-				1FF3A6BF6233424BAFFE1541 /* SourceSansPro-Regular.ttf */,
-				6DAF1A0D72FC4105BF3D9C13 /* SourceSansPro-SemiBold.ttf */,
+				1C16FC791A7FB2BA99F8EA32 /* Pods-newsapp.debug.xcconfig */,
+				B614AC14C66608C6C00B8A4C /* Pods-newsapp.release.xcconfig */,
+				E1E0E16742726323CEE2C470 /* Pods-newsapp-newsappTests.debug.xcconfig */,
+				FC92C7558F3DC6490F368641 /* Pods-newsapp-newsappTests.release.xcconfig */,
 			);
-			name = Resources;
+			path = Pods;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -164,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "newsappTests" */;
 			buildPhases = (
+				82007DBAD4BC1CDFD33F4699 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				AE144FE3F16FFC7154E24E47 /* [CP] Embed Pods Frameworks */,
+				6C68C5E48FDAB7F412963DEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,11 +196,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "newsapp" */;
 			buildPhases = (
+				FC7C55D798C5BEE23558523E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				968616661D620572F2911616 /* [CP] Embed Pods Frameworks */,
+				DA0962D7963125315BA00AFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,10 +264,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				603FC9D92B7542A9AEEB439A /* MuktaMaheeBold.ttf in Resources */,
-				4348FBD265F1473FA8A43ED6 /* MuktaMaheeRegular.ttf in Resources */,
-				C071F25BC5E44C72B9278DCB /* SourceSansProRegular.ttf in Resources */,
-				82C58424D7A84211B66851CA /* SourceSansProSemiBold.ttf in Resources */,
 				83BF0F0B5C3E4A79ABA7EC97 /* MuktaMahee-Bold.ttf in Resources */,
 				AE553808E8A148CE88224A0E /* MuktaMahee-Regular.ttf in Resources */,
 				EC733F196233487DAC6B5AE3 /* SourceSansPro-Regular.ttf in Resources */,
@@ -274,6 +287,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		6C68C5E48FDAB7F412963DEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82007DBAD4BC1CDFD33F4699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-newsapp-newsappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968616661D620572F2911616 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp/Pods-newsapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp/Pods-newsapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newsapp/Pods-newsapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE144FE3F16FFC7154E24E47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newsapp-newsappTests/Pods-newsapp-newsappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0962D7963125315BA00AFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp/Pods-newsapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newsapp/Pods-newsapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newsapp/Pods-newsapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7C55D798C5BEE23558523E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-newsapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -327,6 +452,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E0E16742726323CEE2C470 /* Pods-newsapp-newsappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -353,6 +479,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC92C7558F3DC6490F368641 /* Pods-newsapp-newsappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -376,6 +503,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C16FC791A7FB2BA99F8EA32 /* Pods-newsapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -401,6 +529,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B614AC14C66608C6C00B8A4C /* Pods-newsapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -455,6 +584,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -520,6 +650,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
