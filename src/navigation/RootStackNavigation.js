@@ -2,6 +2,7 @@ import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from '../screens/HomeScreen';
 import {DetailScreen} from '../screens/DetailScreen';
+import {Platform} from 'react-native';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,7 +17,7 @@ const RootStackNavigation = () => {
       <Stack.Screen
         name="Detail"
         component={DetailScreen}
-        options={{headerShown: false}}
+        options={{headerShown: Platform.OS === 'ios'}}
       />
     </Stack.Navigator>
   );
